@@ -18,7 +18,7 @@ from sentence_transformers.cross_encoder.training_args import CrossEncoderTraini
 model_name = "tomaarsen/reranker-MiniLM-L12-gooaq-bce" # 33.4M model trained on gooaq, converged at the end of the 1st epoch, Nanomsmarco R100 Mrr@10 about 0.53, precision F32
 
 # tomaarsen/reranker-msmarco-MiniLM-L12-H384-uncased-lambdaloss # 33.4M model trained on MS MARCO, converged at the beginning of the 1st epoch, precision F32, Nanomsmarco R100 Mrr@10 about 0.530746
-# cross-encoder/ms-marco-MiniLM-L6-v2 # 22.7M SOTA model trained on MS MARCO, converged at the beginning, Nanomsmarco R100 Mrr@10 about 0.54, precision F32
+# cross-encoder/ms-marco-MiniLM-L6-v2 # 22.7M SOTA model trained on MS MARCO, converged at the beginning, Nanomsmarco R100 Mrr@10 about 0.54, precision F32, base model microsoft/MiniLM-L12-H384-uncased
 
 # Set the log level to INFO to get more information
 logging.basicConfig(
